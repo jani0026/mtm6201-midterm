@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/* setting the header image */
 .header-cake {
     position: absolute;
     height: 100%;
@@ -22,7 +22,7 @@ html {
 body {
     background-color: saddlebrown;
 }
-
+/* navigation bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ li {
     text-decoration: none;
     color: black;
 }
-
+/* text on header image */
 .headings {
     height: calc(100vh - 120px);
     display: flex;
@@ -55,7 +55,7 @@ li {
     border-radius: 28px;
 
 }
-
+/* about us */
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -78,7 +78,7 @@ li {
 .meet-baker {
     margin-bottom: 12px;
 }
-
+/* services */
 .services-wrapper {
     display: flex;
     margin-top: 80px;
@@ -105,7 +105,7 @@ footer {
 img {
     border-radius: 12px;
 }
-
+/* products page */
 .product-cakes {
     width: 30%;
     margin: 20px;
@@ -116,7 +116,7 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* contact page */
 form {
     width: 100%;
     display: flex;
